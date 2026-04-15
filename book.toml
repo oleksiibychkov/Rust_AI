@@ -21,3 +21,10 @@ additional-css = ["custom.css"]
 enable = true
 limit-results = 30
 use-hierarchical-headings = true
+
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
