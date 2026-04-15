@@ -1,0 +1,53 @@
+/* Custom styles for Ukrainian Rust textbook */
+
+:root {
+    --content-max-width: 900px;
+}
+
+/* Better code blocks */
+pre > code {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+/* Better tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+
+table th, table td {
+    padding: 8px 12px;
+    border: 1px solid var(--table-border-color);
+    text-align: left;
+}
+
+table th {
+    font-weight: bold;
+}
+
+/* Highlight important blocks */
+blockquote {
+    border-left: 4px solid #e67e22;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background-color: rgba(230, 126, 34, 0.05);
+}
+
+/* Part headers */
+h1 {
+    border-bottom: 2px solid var(--sidebar-active);
+    padding-bottom: 0.3em;
+}
+
+/* Better list spacing */
+li {
+    margin-bottom: 0.3em;
+}
+
+/* Prompt templates styling */
+pre > code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
