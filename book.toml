@@ -16,15 +16,12 @@ preferred-dark-theme = "ayu"
 git-repository-url = "https://github.com/oleksiibychkov/rust-ai-textbook"
 edit-url-template = "https://github.com/oleksiibychkov/rust-ai-textbook/edit/main/{path}"
 additional-css = ["custom.css"]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
 
 [output.html.search]
 enable = true
 limit-results = 30
 use-hierarchical-headings = true
 
-
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
-
-[output.html]
-additional-js = ["mermaid.min.js", "mermaid-init.js"]
