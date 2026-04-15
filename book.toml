@@ -21,3 +21,7 @@ additional-css = ["custom.css"]
 enable = true
 limit-results = 30
 use-hierarchical-headings = true
+
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
