@@ -4,7 +4,6 @@ authors = ["Олексій Бичков"]
 language = "uk"
 multilingual = false
 src = "src"
-description = "Підручник з програмування на Rust з інтегрованим курсом Prompt Engineering. Наскрізний проєкт: симуляція інтелектуального автономного рою БПЛА."
 
 [build]
 build-dir = "book"
@@ -13,15 +12,10 @@ create-missing = false
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "ayu"
-git-repository-url = "https://github.com/oleksiibychkov/rust-ai-textbook"
-edit-url-template = "https://github.com/oleksiibychkov/rust-ai-textbook/edit/main/{path}"
 additional-css = ["custom.css"]
 
 [output.html.search]
 enable = true
-limit-results = 30
-use-hierarchical-headings = true
-
 
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
