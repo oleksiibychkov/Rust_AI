@@ -1,6 +1,6 @@
 [book]
 title = "Основи програмування мовою Rust з AI-асистентом"
-authors = ["Олексій Бичков"]
+authors = ["Бичков О.С., Меркулова К.В., Жабська Є.О., Терещенко Т.М."]
 language = "uk"
 multilingual = false
 src = "src"
